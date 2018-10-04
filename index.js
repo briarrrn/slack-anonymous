@@ -59,7 +59,7 @@ function createResponsePayload(requestBody) {
 
     var target = splitted[0];
     var remainingText = splitted.slice(1).join(' ');
-    remainingText = 'You made someone\'s week awesome! They wrote: "' + remainingText + '"';
+    remainingText = 'Someone thought you were awesome because you: "' + remainingText + '"';
 
     if (target === ':here') {
         return {
